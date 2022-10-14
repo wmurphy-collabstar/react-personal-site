@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #23252C;
+    font-family: Inter, sans-serif;
+}
+
+.root {
+    background-color: #23252C;
+    text-align: center;
+    font-size: 200px;
+    text-align: center;
+}
+
+header, footer{
+    text-align: center;
+}
+
+.container {
+    background-color: #1A1B21;
+    max-width: 320px;
+    margin: 45px auto;
+    border-radius: 10px;
+}
+
+header img {
+    max-width: 320px;
+    border-radius: 10px 10px 0 0;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.job-title {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.linkedin-btn {
+    border: none;
+    background-color: #5093E2;
+    color: white;
+}
+
+button img {
+    width: 16px;
+}
+
+.mail-btn {
+    border: 1px solid #D1D5DB;
+    background-color: white;
+    color: #374151;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 70px;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    width: 317px;
+    height: 64px;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    margin: 20px 12px;
+}
+
+.about, .interests {
+    /* margin: 35px 35px 0px 35px; */
+    margin: 0 35px;
+}
+
+.about {
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+.interests {
+    margin-top: 25px;
+    padding: 0px;
+    margin-bottom: 25px
+}
+
+.about h3, .interests h3 {
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.about p, .interests p {
+    color: #DCDCDC;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-top: 5px;
+    padding: 0;
+}
+
+button {
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons {
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
