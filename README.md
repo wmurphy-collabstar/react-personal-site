@@ -1,2 +1,2 @@
-# react-personal-site
-A personal page written with React
+# Personal Site using React
+
