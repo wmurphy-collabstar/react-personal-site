@@ -48,12 +48,13 @@ header img {
     margin-bottom: 0;
 }
 
-header p {
+header a {
     font-size: 10.24px;
     line-height: 150%;
     color: #F5F5F5;
     margin-top: 8px;
     margin-bottom: 15px;
+    text-decoration: none;
 }
 
 .linkedin-btn {
